@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Argento Discos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
     <header>
@@ -43,70 +44,49 @@
       <main>
         <h2 class="h2-discos">Discos más vendidos</h2>
         <section class="seccion-discos">
-          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+          <div class="contenedor-discos">
       
-              <div class="carousel-item active">
-                <div class="d-flex flex-column align-items-center text-center p-4">
-                  <h3>El amor después del amor</h3>
-                  <p>
-                    El amor después del amor" es el séptimo álbum de estudio del cantante argentino Fito Páez, publicado el 1 de junio de 1992 por Warner Music. 
-                  Cuenta con la participación de artistas como Luis Alberto Spinetta, Charly García, Fabiana Cantilo, Andrés Calamaro, Mercedes Sosa, entre otros.
-                  El disco consta de catorce canciones, de las cuales diez fueron lanzadas como sencillos. Algunos hits son "El Amor después del Amor", 
-                  "Tumbas de la Gloria", "A rodar mi vida" y "Un vestido y un amor".
-                  Desde su lanzamiento, se convirtió en el disco de larga duración más vendido en la historia de la música popular argentina,
-                  con más de 1.100.000 unidades vendidas.
-                  </p>
-                  <img src="../assets/imagenes/fito.jpg" class="d-block w-25 imagen-disco" alt="Imagen del disco El amor después del amor">
-                </div>
-              </div>
-      
-              <div class="carousel-item">
-                <div class="d-flex flex-column align-items-center text-center p-4">
-                  <h3>Alta suciedad</h3>
-                  <p>
-                    Alta suciedad" es el quinto álbum de estudio de Andrés Calamaro, lanzado el 9 de septiembre de 1997 por WEA International.
-                  Fue su primer disco de canciones nuevas tras su separación de Los Rodríguez, y vendió más de 700 mil copias.
-                  Producido por Joe Blaney y grabado con músicos anglosajones en Estados Unidos, es el segundo disco más vendido del rock argentino.
-                  La revista Rolling Stone lo ubicó en el puesto 10 de su lista de los 100 mejores álbumes del rock argentino.
-                  </p>
-                  <img src="../assets/imagenes/calamaro_300x300.jpg" class="d-block w-25 img-calamaro imagen-disco" alt="Imagen del disco Alta Suciedad">
-                </div>
-              </div>
-      
-              <div class="carousel-item">
-                <div class="d-flex flex-column align-items-center text-center p-4">
-                  <h3>Bocanada</h3>
-                  <p>
-                    "Bocanada" es el segundo álbum de estudio de Gustavo Cerati, lanzado en 1999, luego de la disolución de Soda Stereo.
-                    El disco presenta una fusión de estilos como el pop, el rock, el electrónico y el trip-hop, mostrando una gran evolución artística.
-                    Es considerado uno de los mejores discos del rock argentino y latinoamericano, y consolidó a Cerati como uno de los músicos más innovadores de la región.
-                  </p>
-                  <img src="../assets/imagenes/boca_300x300.webp" class="d-block w-25 imagen-disco" alt="Imagen del disco Bocanada">
-                </div>
-              </div>
-      
+            <div class="disco">
+              <h3>El amor después del amor</h3>
+              <p>
+                "El amor después del amor" es el séptimo álbum de estudio del cantante argentino Fito Páez, publicado el 1 de junio de 1992 por Warner Music. Cuenta con la participación de artistas como Luis Alberto Spinetta, Charly García, Fabiana Cantilo, entre otros.
+              </p>
+              <img src="../assets/imagenes/fito.jpg" alt="Imagen del disco El amor después del amor" class="imagen-disco">
+              <h4 class="casa">Recomendación de la casa</h4>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2dxRzFDDv3QcSMQ0vIgqMF?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
       
-            <!-- Botones de control -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon flecha-atras" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon flecha-adelante" aria-hidden="true"></span>
-              <span class="visually-hidden ">Siguiente</span>
-            </button>
+            <div class="disco">
+              <h3>Alta suciedad</h3>
+              <p>
+                "Alta suciedad" es el quinto álbum de estudio de Andrés Calamaro, lanzado el 9 de septiembre de 1997 por WEA International. Fue su primer disco de canciones nuevas tras su separación de Los Rodríguez, y vendió más de 700 mil copias. 
+              </p>
+              <img src="../assets/imagenes/calamaro_300x300.jpg" alt="Imagen del disco Alta Suciedad" class="imagen-disco">
+              <h4 class="casa">Recomendación de la casa</h4>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/55XrKecG9mBBLI3PL3KzXU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+      
+            <div class="disco">
+              <h3>Bocanada</h3>
+              <p>
+                "Bocanada" es el segundo álbum de estudio de Gustavo Cerati, lanzado en 1999, luego de la disolución de Soda Stereo. El disco presenta una fusión de estilos como el pop, el rock, el electrónico y el trip-hop, mostrando una gran evolución artística.
+              </p>
+              <img src="../assets/imagenes/boca_300x300.webp" alt="Imagen del disco Bocanada" class="imagen-disco">
+              <h4 class="casa">Recomendación de la casa</h4>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6VH153hUoK92d0cqsf5l9i?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              
+            </div>
+      
           </div>
         </section>
-      
       </main>
+      
 
     <footer>
         <div class="social-icons">
-            <img src="" alt="Icono Instagram">
-            <img src="" alt="Icono YouTube">
-            <img src="" alt="Icono Twitter">
+          <img src="../assets/imagenes/logotipo-de-instagram.png" alt="Icono Instagram">
+          <img src="../assets/imagenes/youtube.png" alt="Icono YouTube">
+          <img src="../assets/imagenes/twitter-forma-negra.png" alt="Icono Twitter">
         </div>
         <div class="feedback-form">
             <form action="">

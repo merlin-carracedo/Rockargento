@@ -1,0 +1,36 @@
+
+/* Para pantallas de hasta 768px */
+@media screen and (max-width: 768px) {
+    .contenedor-noticias {
+        grid-template-columns: 1fr 1fr; /* Aquí cambiaremos a 2 columnas */
+        padding: 10px;
+    }
+
+    .social-icons img {
+        width: 30px;
+    }
+
+    .feedback-form input {
+        width: 90%;
+    }
+}
+
+/* Para pantallas de hasta 480px */
+@media screen and (max-width: 480px) {
+    .contenedor-noticias {
+        grid-template-columns: 1fr; /* Aquí será 1 columna */
+        padding: 5px;
+    }
+
+    .noticia {
+        padding: 10px;
+    }
+
+    .social-icons img {
+        width: 25px;
+    }
+
+    .feedback-form input {
+        width: 95%;
+    }
+}
