@@ -125,7 +125,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   padding: 0;
-  align-items: stretch;  /* Asegura que todas las tarjetas tengan la misma altura */
+  align-items: stretch;  
 }
 
 .disco {
@@ -139,7 +139,7 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  height: 100%;  /* La card se estira al máximo */
+  height: 100%;  
 }
 
 .disco h3 {
