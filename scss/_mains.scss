@@ -1,3 +1,4 @@
+@use "./variables";
 /* Estilos inicio */
 .h2-index {
   text-align: center;
@@ -36,7 +37,9 @@
 
 .contenido p {
   flex-grow: 1;
+
 }
+
 
 .contenido img {
   width: 90%;
