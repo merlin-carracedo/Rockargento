@@ -42,7 +42,7 @@ header {
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
-  font-family: "Squealer", sans-serif;
+  src: url("../assets/fonts/Rockinline.woff") format("woff");
   letter-spacing: 4px;
 }
 
@@ -402,15 +402,15 @@ iframe {
 }
 @font-face {
   font-family: "Rockinline";
-  src: url("../assets/fonts/Rockinline.ttf") format("truetype");
+  src: url("../assets/fonts/Rockinline.wols") format("truetype");
 }
 @font-face {
   font-family: "Squealer";
-  src: url("../assets/fonts/Squealer.otf") format("opentype");
+  src: url("../assets/fonts/Squealer.wolf") format("opentype");
 }
 @font-face {
   font-family: "Rock";
-  src: url("../assets/fonts/Methrock.otf") format("opentype");
+  src: url("../assets/fonts/Methrock.wolf") format("opentype");
 }
 
 /*# sourceMappingURL=style.css.map */

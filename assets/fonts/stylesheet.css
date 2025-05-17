@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Methrock';
+    src: url('MethrockRegular.woff2') format('woff2'),
+        url('MethrockRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Methrock';
+    src: url('MethrockRegular.woff2') format('woff2'),
+        url('MethrockRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Squealer';
+    src: url('Squealer-Regular.woff2') format('woff2'),
+        url('Squealer-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rockinline';
+    src: url('Rockinline.woff2') format('woff2'),
+        url('Rockinline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Squealer Embossed';
+    src: url('SquealerEmbossed-Regular.woff2') format('woff2'),
+        url('SquealerEmbossed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rockinline';
+    src: url('Rockinline.woff2') format('woff2'),
+        url('Rockinline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
