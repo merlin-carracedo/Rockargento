@@ -1,4 +1,5 @@
 @use "./variables";
+@use "./mixins";
 * {
   margin: 0;
   padding: 0;
@@ -34,19 +35,14 @@ header {
 }
 
 .navbar-nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  @include mixins.flex-center(row, 20px);
 }
 
 .custom-link {
-  color: variables.$color2;
-  text-decoration: none;
-  font-size: 18px; 
-  transition: color 0.3s ease;
-  src: url("../assets/fonts/Rockinline.woff") format("woff");
-   letter-spacing: 4px;
+  @include mixins.custom-link-style(variables.$color2, #FFD700);
 }
+
+
 
 .custom-link:hover {
   color: #FFD700; 

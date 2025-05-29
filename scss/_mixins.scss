@@ -1,0 +1,17 @@
+@mixin flex-center($direction: row, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin custom-link-style($color, $hover-color) {
+  color: $color;
+  text-decoration: none;
+  transition: color 0.3s;
+  &:hover {
+    color: $hover-color;
+  }
+}
+
